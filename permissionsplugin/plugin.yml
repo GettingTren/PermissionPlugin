@@ -1,0 +1,13 @@
+name: PermissionsPlugin
+version: '${project.version}'
+main: me.ilgroggo.permissionsplugin.PermissionsPlugin
+api-version: '1.20'
+commands:
+  test:
+    description: Simple test command.
+    permission: permissions.commands.test
+    permission-message: You cant run this command, lol. # !!! DEPRECATED/NOT FUNCTIONING ANYMORE
+permissions:
+  permission.commands.test:
+    description: Given to someone, Allows to run /test
+    default: op # you need to be OP to run this command
