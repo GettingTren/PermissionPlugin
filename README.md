@@ -1,5 +1,5 @@
 # *PermissionPlugin*
-This is a simple plugin for **Minecraft 1.20.1** that customize the **join message when a player join** for the first time or not, and **when a player leave** the server.
+This is a simple plugin for **Minecraft 1.20.1** that enable the usage of a custom command only if the player that want to use it has the right **permission**.
 ## Requirements
 
 To deploy this project you will need a few things:
@@ -25,6 +25,10 @@ To use the mod, please follow this steps:
 1. Launch the **pl** (plugin) **command** in the terminal of the server: if the name of the plugin is in **green**, you are good to go.
 
 1. **Join the server** and enjoy your plugin!
+
+## Commands and Permissions
+
+There is **1 custom command** (/test), and you can run it **only if you are OP in the server.** Being OP will also give you the **permission.commands.test permission**, given only to OP players. If you want to use the command **while not being OP**, you will need to configure in the [plugin.yml](), changing the **default: op** under the permission.command.test tree to **not op**, then **recompile the .jar file** and implements it into the **server's plugin folder**.
 
 ## Help
 
