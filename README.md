@@ -28,7 +28,7 @@ To use the mod, please follow this steps:
 
 ## Commands and Permissions
 
-There is **1 custom command** (/test), and you can run it **only if you are OP in the server.** Being OP will also give you the **permission.commands.test permission**, given only to OP players. If you want to use the command **while not being OP**, you will need to configure in the [plugin.yml](), changing the **default: op** under the permission.command.test tree to **not op**, then **recompile the .jar file** and implements it into the **server's plugin folder**.
+There is **1 custom command** (/test), and you can run it **only if you are OP in the server.** Being OP will also give you the **permission.commands.test permission**, given only to OP players. If you want to use the command **while not being OP**, you will need to configure in the [plugin.yml](https://github.com/GettingTren/PermissionPlugin/blob/main/permissionsplugin/plugin.yml), changing the **default: op** under the permission.command.test tree to **not op**, then **recompile the .jar file** and implements it into the **server's plugin folder**.
 
 ## Help
 
